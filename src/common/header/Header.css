@@ -1,0 +1,31 @@
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.logoRotate{
+    background-color: #ff7f7f;
+    height: 35px;
+    transform: rotate(180deg);
+    animation: spinHorizontal 8s linear infinite;
+}
+@keyframes spinHorizontal {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
+
+.formControl {
+    width: 240px;
+}
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}

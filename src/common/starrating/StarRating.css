@@ -1,0 +1,7 @@
+.star {
+    color: black;
+    font-size: 25px;
+}
+.star:hover{
+    color: yellow;
+}
